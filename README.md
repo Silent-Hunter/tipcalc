@@ -1,0 +1,2 @@
+# tipcalc
+FORTRAN tip calculator
