@@ -2,7 +2,8 @@
       implicit none
       double precision :: a, b, y, z
 
-      read  (*,*) a
+      write(*,'("Enter subtotal:")')
+      read (*,*) a
       b=0.20
       y=a*b
       z=y+a
