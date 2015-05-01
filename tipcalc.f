@@ -4,8 +4,9 @@
 
       write(*,'("Enter subtotal:")')
       read (*,*) a
-      b=0.20
-      y=a*b
+      write(*,'("Enter tip percentage:")')
+      read (*,*) b
+      y=a*(b/100)
       z=y+a
       write(*,'("Tip: ", f12.2)')  y
       write(*,'("Total:", f12.2)')  z
